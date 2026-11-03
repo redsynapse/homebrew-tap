@@ -3,6 +3,11 @@ class Civitfit < Formula
   homepage "https://github.com/redsynapse/civitfit"
   license "MIT"
 
+  livecheck do
+    url :homepage
+    strategy :github_latest
+  end
+
   on_macos do
     on_arm do
       url "https://github.com/redsynapse/civitfit/releases/download/v0.2.0/civitfit-v0.2.0-aarch64-apple-darwin.tar.gz"
@@ -23,11 +28,6 @@ class Civitfit < Formula
       url "https://github.com/redsynapse/civitfit/releases/download/v0.2.0/civitfit-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
       sha256 "116b0860e3bd80ad53aa2fde8ff375c2eb4051705e216ebf127baeb257dfbb6c"
     end
-  end
-
-  livecheck do
-    url "https://github.com/redsynapse/civitfit"
-    strategy :github_latest
   end
 
   def install
