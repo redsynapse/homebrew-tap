@@ -10,23 +10,23 @@ class Civitfit < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/redsynapse/civitfit/releases/download/v0.2.0/civitfit-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0ea114fa39f1370bd378411af9bd31f6526a10004af12adf58662985a9eb4025"
+      url "https://github.com/redsynapse/civitfit/releases/download/v0.2.1/civitfit-v0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "4fdb4636f1d39dbc315e8a8b200066ec1a8fa5e05658459cae21e017246da4da"
     end
     on_intel do
-      url "https://github.com/redsynapse/civitfit/releases/download/v0.2.0/civitfit-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "acdf50386fbd2cf8d1408d6391a00aa62be54b34ea7b4b650c1164978901b5ef"
+      url "https://github.com/redsynapse/civitfit/releases/download/v0.2.1/civitfit-v0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "35b49fc9b0d68e6918bbec920f01226df886d10793a345620772aab2789f7d88"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/redsynapse/civitfit/releases/download/v0.2.0/civitfit-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "421cdf1aad3b7019954a0476e1f860af0d06905c8a2c6b23a63957e5e81eced4"
+      url "https://github.com/redsynapse/civitfit/releases/download/v0.2.1/civitfit-v0.2.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "bee9a8d5758632def5d35401931a38f95e9e8e7f698314e696ec4927e14af05e"
     end
     on_intel do
-      url "https://github.com/redsynapse/civitfit/releases/download/v0.2.0/civitfit-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "116b0860e3bd80ad53aa2fde8ff375c2eb4051705e216ebf127baeb257dfbb6c"
+      url "https://github.com/redsynapse/civitfit/releases/download/v0.2.1/civitfit-v0.2.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5dc9d74a93c13b50ed9b6d4b4c14c88b08818b58f9f82b9fdae3ebe9392740e5"
     end
   end
 
